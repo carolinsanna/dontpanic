@@ -10,8 +10,8 @@ body{
     /*background-position: center center fixed;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
-    background: url("./../assets/bg4.jpg") fixed;
-    background-size: cover;
+    background: url("./../assets/bg7.jpg") fixed;
+    
 }
 
 header{
@@ -58,7 +58,7 @@ a{
 }
 
 .container .name h5{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -66,7 +66,7 @@ a{
     font-weight: 400;
     width: 40%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 /*.form input{
@@ -81,7 +81,7 @@ a{
     padding: 6px 10px;
     border: none;
     border-radius: 5px 5px 5px 5px;
-    background: linear-gradient(to right, #FE66C3 50%, #00AEEE 50%);
+    background: linear-gradient(to right, #00AEEE 50%, #9c00b1 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     color: #ffffff;
@@ -100,14 +100,14 @@ a{
     width: 30px;
     margin: 15px;
     cursor: pointer;    
-    animation: blink 1s steps(5, start) infinite;
+    /*animation: blink 0.5s steps(5, start) infinite;*/
 }
-
+/*
 @keyframes blink {
     to{
         visibility: hidden;
     }
-}
+}*/
 
 #animation{
     transition: 300ms;
