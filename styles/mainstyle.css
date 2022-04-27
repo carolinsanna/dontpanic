@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: #E6FFFE;
+    color: #b0e8fc;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -33,11 +33,17 @@ header ul li{
     margin: 10px;
 }
 
+header ul li a{
+    transition: 500ms;
+}
+
+header ul li a:hover{
+    color: #FE66C3;
+}
+
 a{
     text-decoration: none;
 }
-
-
 
 .logo img{
     width: 100px;
@@ -59,26 +65,57 @@ a{
 .form{
     font-weight: 400;
     width: 40%;
-    margin: 0 auto ;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.form input{
+/*.form input{
     width: 50%;
-}
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+}*/
 
 .form button{
-    width: 15%;
+    width: 30%;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+    background: linear-gradient(to right, #FE66C3 50%, #00AEEE 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    margin-top: 20px;
+}
+
+.form button:hover{
+    background-position: left bottom ;
 }
 
 #arrow img{
-    width:30px;
+    width: 30px;
+    margin: 15px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
 }
 
-#about-me{
-    font-weight: 300;
+@keyframes blink {
+    to{
+        visibility: hidden;
+    }
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: 300ms;
 }
 
 #about-me p{
     max-width: 600px;
     margin: 0 auto;
+    font-weight: 300;
 }
