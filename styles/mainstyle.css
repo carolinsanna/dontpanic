@@ -99,7 +99,7 @@ a{
 #arrow img{
     width: 30px;
     margin: 15px;
-    cursor: pointer;
+    cursor: pointer;    
     animation: blink 1s steps(5, start) infinite;
 }
 
@@ -109,11 +109,22 @@ a{
     }
 }
 
+#animation{
+    transition: 300ms;
+}
+
 .rotate{
     transform: rotate(180deg);
     transition: 300ms;
 }
 
+.active{
+    display: block !important;
+}
+
+#about-me{
+    display: none;
+}
 #about-me p{
     max-width: 600px;
     margin: 0 auto;
