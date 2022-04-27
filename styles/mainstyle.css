@@ -6,22 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-ul{
-    display: flex;
-    list-style: none;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: 300;
-}
-
-a{
-    text-decoration: none;
-}
-
-header{
-    display: flex;
-}
-
 body{    
     /*background-position: center center fixed;
     background-repeat: no-repeat;
@@ -29,6 +13,31 @@ body{
     background: url("./../assets/bg4.jpg") fixed;
     background-size: cover;
 }
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
 
 .logo img{
     width: 100px;
@@ -73,4 +82,3 @@ body{
     max-width: 600px;
     margin: 0 auto;
 }
-
