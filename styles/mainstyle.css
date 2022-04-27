@@ -2,16 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: aquamarine;
+    color: #E6FFFE;
     font-family: 'Poppins', sans-serif;
 }
 
 ul{
+    display: flex;
     list-style: none;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 a{
     text-decoration: none;
+}
+
+header{
+    display: flex;
 }
 
 body{    
@@ -20,4 +28,49 @@ body{
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
     background: url("./../assets/background.png") fixed;
     background-size: cover;
-}    
+}
+
+.logo img{
+    width: 100px;
+}
+
+.container{
+    text-align: center;
+}
+.container .name h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.container .name h5{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.form{
+    font-weight: 400;
+    width: 40%;
+    margin: 0 auto ;
+}
+
+.form input{
+    width: 50%;
+}
+
+.form button{
+    width: 15%;
+}
+
+#arrow img{
+    width:30px;
+}
+
+#about-me{
+    font-weight: 300;
+}
+
+#about-me p{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
