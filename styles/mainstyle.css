@@ -26,7 +26,7 @@ body{
     /*background-position: center center fixed;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
-    background: url("./../assets/background.png") fixed;
+    background: url("./../assets/bg4.jpg") fixed;
     background-size: cover;
 }
 
@@ -38,13 +38,13 @@ body{
     text-align: center;
 }
 .container .name h1{
-    font-size: 70px;
-    font-weight: 400;
+    font-size: 60px;
+    font-weight: 300;
 }
 
 .container .name h5{
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .form{
