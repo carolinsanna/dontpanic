@@ -157,3 +157,36 @@ footer{
 .panic a:hover{
     color: #FE66C3;
 }
+
+@media only screen and (max-width:1024px){
+    .form button{
+        width:100px;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .container .name h1{
+        font-size: 30px;
+    }
+    .container .name h5{
+        font-size: 15px;
+    }
+    #about-me p{
+        max-width: 80%;
+        text-align: justify;
+        font-size: 12px;
+    }
+    .form div{
+        font-size: 12px;
+    }
+    .panic a{
+        font-size: 12px;
+    }
+    header{
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+    .logo img{
+        width: 50px;
+    }
+}
