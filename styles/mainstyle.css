@@ -10,8 +10,8 @@ body{
     /*background-position: center center fixed;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
-    background: url("./../assets/bg7.jpg") fixed;
-    
+    background: url("./../assets/bg8.jpg") fixed;
+    background-size: cover;
 }
 
 header{
@@ -43,6 +43,10 @@ header ul li a:hover{
 
 a{
     text-decoration: none;
+}
+
+main{
+    margin-bottom: 150px;
 }
 
 .logo img{
@@ -124,9 +128,24 @@ a{
 
 #about-me{
     display: none;
+    
 }
-#about-me p{
+#about-me p, s{
     max-width: 600px;
     margin: 0 auto;
     font-weight: 300;
+    color: #FE66C3;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:10px ;
+}
+
+.panic a{
+    transition: 400ms;
+}
+
+.panic a:hover{
+    color: #FE66C3;
 }
