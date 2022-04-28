@@ -4,13 +4,21 @@
     box-sizing: border-box;
     color: #b0e8fc;
     font-family: 'Poppins', sans-serif;
+
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;            /* Possível implementação no futuro */
+    /* cursor: default; */
 }
 
 body{    
     /*background-position: center center fixed;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
-    background: url("./../assets/bg8.jpg") fixed;
+    background: url("./../assets/bg9.jpg") fixed;
     background-size: cover;
 }
 
@@ -134,7 +142,7 @@ main{
     max-width: 600px;
     margin: 0 auto;
     font-weight: 300;
-    color: #FE66C3;
+    color: #f8f8f8;
 }
 footer{
     display: flex;
