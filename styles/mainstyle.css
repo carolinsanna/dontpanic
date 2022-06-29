@@ -109,7 +109,7 @@ main{
 }
 
 #arrow img{
-    width: 30px;
+    width: 20px;
     margin: 15px;
     cursor: pointer;    
     /*animation: blink 0.5s steps(5, start) infinite;*/
@@ -137,6 +137,12 @@ main{
 #about-me{
     display: none;
     
+}
+#about-me a{
+    transition: 400ms;
+}
+#about-me a:hover{
+    color: #FE66C3;
 }
 #about-me p, s{
     max-width: 600px;
