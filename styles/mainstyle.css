@@ -109,8 +109,8 @@ main{
 }
 
 #arrow img{
-    width: 20px;
-    margin: 15px;
+    width: 15px;
+    margin: 5px;
     cursor: pointer;    
     /*animation: blink 0.5s steps(5, start) infinite;*/
 }
