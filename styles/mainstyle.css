@@ -58,7 +58,7 @@ main{
 }
 
 .logo img{
-    width: 100px;
+    width: 70px;
 }
 
 .container{
@@ -187,6 +187,6 @@ footer{
         flex-flow: column;
     }
     .logo img{
-        width: 50px;
+        width: 40px;
     }
 }
