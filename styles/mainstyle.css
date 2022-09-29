@@ -81,13 +81,19 @@ main{
 }
 
 .form{
+    box-sizing: border-box;
     font-weight: 400;
     font-size: 20px;
     width: 40%;
     margin: 0 auto;
-    padding: 30px;
 }
-
+.stacks{
+    box-sizing: border-box;
+    padding: 50px;
+}
+.badges{
+    margin: 20px;
+}
 /*.form input{
     width: 50%;
     padding: 5px 10px;
@@ -96,8 +102,7 @@ main{
 }*/
 
 .form button{
-    width: 30%;
-    padding: 6px 10px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px 5px 5px 5px;
     background: linear-gradient(to right, #00AEEE 50%, #9c00b1 50%);
@@ -188,7 +193,6 @@ footer{
     }
     #about-me p{
         max-width: 80%;
-        text-align: justify;
         font-size: 12px;
     }
     .form div{
@@ -203,5 +207,9 @@ footer{
     }
     .logo img{
         width: 40px;
+    }
+    .badges svg{
+        width: 32px;
+        height: 32px;
     }
 }
