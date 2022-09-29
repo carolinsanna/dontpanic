@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     color: #b0e8fc;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 
     -webkit-touch-callout: none;  /* iPhone OS, Safari */
     -webkit-user-select: none;    /* Chrome, Safari 3 */
@@ -71,16 +72,17 @@ main{
 }
 .container .name h1{
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 700;
 }
 
 .container .name h5{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .form{
     font-weight: 400;
+    font-size: 20px;
     width: 40%;
     margin: 0 auto;
     padding: 30px;
@@ -103,7 +105,7 @@ main{
     background-position: right bottom;
     color: #ffffff;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
     cursor: pointer;
     transition: all 300ms ease-out;
     margin-top: 20px;
@@ -153,6 +155,7 @@ main{
     max-width: 600px;
     margin: 0 auto;
     font-weight: 300;
+    font-size: 20px;
     color: #f8f8f8;
 }
 footer{
