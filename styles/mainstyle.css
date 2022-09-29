@@ -19,7 +19,7 @@ body{
     /*background-position: center center fixed;
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #12c2e9,#c471ed,#f64f59);*/
-    background: url("./../assets/bg9.jpg") fixed;
+    background: url("./../assets/bg3.jpg") fixed;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -152,7 +152,7 @@ main{
     color: #FE66C3;
 }
 #about-me p, s{
-    max-width: 600px;
+    max-width: 30vw;
     margin: 0 auto;
     font-weight: 300;
     font-size: 20px;
